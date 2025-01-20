@@ -1,0 +1,27 @@
+---
+name: Code Lint
+
+on:
+  push: null
+  pull_request: null
+permissions: { }
+
+jobs:
+  run-code-lint:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      statuses: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Code Lint
+        uses: kyocera-kwic/kc-build-tools/code-lint@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          filter-regex-exclude: '\/CHANGELOG\.md$'
