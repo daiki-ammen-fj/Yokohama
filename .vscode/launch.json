@@ -12,7 +12,8 @@
             "console": "integratedTerminal",
             "args": [
                 "-b", "C:\\Users\\labuser\\qlight-control\\dammy_batch\\run_qlight_check.bat",  // 引数をリスト形式で指定
-                "-p", "C:\\Users\\labuser\\pybeacon\\dammy_batch\\run_paam_dl_reg.bat"
+                "-p", "C:\\Users\\labuser\\pybeacon\\dammy_batch\\run_paam_dl_reg.bat",
+                "-c", "SSH"
             ],
             "env": {
                 "DEBUG": "True"  // デバッグモードを示す環境変数
