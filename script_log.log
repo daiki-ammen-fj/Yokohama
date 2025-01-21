@@ -1,0 +1,11 @@
+2025-01-21 09:08:23,111 - INFO - Debug mode is disabled
+2025-01-21 09:08:23,111 - INFO - Proceeding to Step 1...
+2025-01-21 09:08:24,304 - INFO - Device 10.18.180.47 is reachable and connection verified.
+2025-01-21 09:08:25,355 - INFO - Device 10.18.180.48 is reachable and connection verified.
+2025-01-21 09:08:26,398 - INFO - Device 10.18.180.152 is reachable and connection verified.
+2025-01-21 09:08:29,413 - ERROR - Ping to 10.18.180.151 timed out.
+2025-01-21 09:08:32,434 - ERROR - Ping to 10.18.180.151 timed out.
+2025-01-21 09:08:35,446 - ERROR - Ping to 10.18.180.151 timed out.
+2025-01-21 09:08:35,447 - ERROR - Failed to reach 10.18.180.151 after 3 retries.
+2025-01-21 09:08:37,756 - INFO - Aborting the process due to connection failure.
+2025-01-21 09:08:37,756 - ERROR - Initialization failed: DUT_ZCU670 (10.18.180.151) is not reachable.
